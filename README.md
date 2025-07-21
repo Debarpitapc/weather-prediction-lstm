@@ -25,3 +25,24 @@ This project fetches real-time data from ThingSpeak and predicts weather paramet
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+# Weather Prediction using LSTM
+
+This Streamlit app connects to live weather data from [ThingSpeak](https://thingspeak.com/), uses a pre-trained LSTM model to predict **temperature**, **humidity**, **wind speed**, and **rain rate**. It displays:
+- Real-time predictions
+- Latency (API to prediction)
+- R² scores for accuracy evaluation
+- Farmer alerts based on critical weather conditions
+- Auto-refresh every 10 seconds
+
+## 💻 Features
+- 🌐 Live sensor data
+- 📊 Actual vs. Predicted plots
+- ⏱️ Latency tracking
+- 🚨 Smart alerts for farmers
+- 📈 Overall R² evaluation
+
+## 🔧 Setup
+Clone the repository and install requirements:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
