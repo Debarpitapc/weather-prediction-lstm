@@ -7,3 +7,4 @@ tensorflow
 scikit-learn
 pytz
 matplotlib
+tensorflow==2.12.0
