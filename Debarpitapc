@@ -1,0 +1,15 @@
+
+---
+
+#### 4. **(Optional) Add `requirements.txt`**
+Include all Python libraries used:
+```txt
+streamlit
+streamlit-autorefresh
+tensorflow
+pandas
+numpy
+scikit-learn
+matplotlib
+requests
+pytz
