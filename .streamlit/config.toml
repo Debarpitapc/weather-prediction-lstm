@@ -1,13 +1,2 @@
-[server]
-headless = true
-port = $PORT
-enableCORS = false
-
-[theme]
-primaryColor = "#4CAF50"
-backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#f0f2f6"
-textColor = "#262730"
-
-[browser]
-gatherUsageStats = false
+[runtime]
+pythonVersion = "3.10"
